@@ -16,3 +16,7 @@ p {
 	-webkit-margin-start: 0;
 	-webkit-margin-end: 0;
 }
+
+.highlight:hover {
+	color: green;
+}
