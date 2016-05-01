@@ -1,0 +1,38 @@
+body {
+	background: #ccc;
+}
+
+.gallery {
+	padding-top: 6%;
+}
+
+ul.gallery li {
+	float: left;
+	margin: 0 10px;
+	padding: 10px;
+	border: 1px solid #fff;
+	list-style: none;
+}
+
+ul.gallery li a img {
+	float: left;
+	width: 200px;
+	-moz-transition: -moz-transform 0.2s ease-in-out;
+	-webkit-transition: -webkit-transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;
+}
+
+ul.gallery li a:hover img {
+	/*-moz-transform-origin: center;
+	-o-transform-origin: center;
+	-webkit-transform: center;
+	transform-origin: center; */
+	-moz-transform: scale(1.5) rotate(-10deg);
+	-o-transform: scale(1.5) rotate(-10deg);
+	-webkit-transform: scale(1.5) rotate(-10deg);
+	transform: scale(1.5) rotate(-10deg);
+	-moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+	-o-box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
