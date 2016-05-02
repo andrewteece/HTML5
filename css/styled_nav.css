@@ -1,0 +1,48 @@
+body{
+	background-color: #F2F2F2;
+	margin: 1%;
+	padding:1%;
+	font-family: sans-serif;
+}
+
+nav{
+	box-sizing:border-box;
+	border: 1px solid #06425C;
+	color:#06425C;
+	background-color:#486B02;
+	display: inline-block;
+	width: 20%;
+	min-width: 125px;
+	margin-right:15px;
+	height:100vh;
+	overflow: auto;
+}
+
+nav a{
+	display:block;
+	line-height: 45px;
+	height:45px;
+	color: #FFFFFF;
+	background-color:#486B02;
+	text-decoration: none;
+	background-color:#486B02;
+	/*background: url('../imgs/arrow.png') no-repeat;*/
+	padding-left: 50px;
+	margin:10px 0 10px 5px;
+	border-radius: 14px;
+	transition: all 0.3s ease-in-out;
+}
+
+nav a:hover,
+nav a:focus {
+	color: #999999;
+	background: rgba(255,255,255,0.15);
+}
+
+section{
+	display: inline-block;
+	width:70%;
+	height:100vh;
+	overflow: auto;
+
+}
