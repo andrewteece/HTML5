@@ -1,75 +1,162 @@
-body {
-	padding: 2%;
-	margin: 2%;
-	font-family: sans-serif;
+body
+{
+    font-family: sans-serif;
+
+    margin: 2%;
+    padding: 2%;
 }
 
-header {
-	background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
-	padding: 2%;
+header
+{
+    padding: 2%;
+
+    background-image: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
 }
 
-h1 {
-	text-align: center;
-	text-transform: uppercase;
-	color: #F012BE;
-	font-size: 300%;
+h1
+{
+    font-size: 300%;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #edc70a;
 }
 
-nav a {
-	margin-top: 1%;
-	margin-bottom: 1%;
-	width: 18%;
-	display: inline-block;
-	background-color: #e8e8e8;
-	text-align: center;
-	padding: 1%;
-	border-radius: 10px;
-	text-decoration: none;
-	color: #000000;
-	font-size: 125%;
+nav a
+{
+    font-size: 125%;
+
+    display: inline-block;
+
+    width: 18%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+
+    text-align: center;
+    text-decoration: none;
+
+    opacity: .8;
+    color: #000;
+    border-radius: 10px;
+    background-color: #e8e8e8;
 }
 
-.active {
-	background-color: #39cccc;
+.active
+{
+    background-color: #c2a91b;
 }
 
-section {
-	margin: 2%;
-	padding: 2%;
+section
+{
+    margin: 2%;
+    padding: 2%;
 }
 
-h2 {
-	font-size: 150%;
-	text-transform: capitalize;
-	padding-bottom: 25px;
-	padding-top: 15px;
+h2
+{
+    font-size: 150%;
+
+    padding-top: 15px;
+    padding-bottom: 25px;
+
+    text-transform: capitalize;
 }
 
-.right {
-	color: #4a0707;
-	display: inline-block;
-	width: 70%;
-	margin: auto;
-	padding: 20px;
+.right
+{
+    display: inline-block;
+
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+
+    color: #4a0707;
 }
 
-.left {
-	background-color: #e6e9f0;
-	color: #4a0707;
-	display: inline-block;
-	width: 20%;
-	margin: 0, auto;
-	padding: 10px;
-	padding-left: 15px;
-	padding-top: 10px;
-	float: left;
+.left
+{
+    display: inline-block;
+    float: left;
+
+    width: 20%;
+    margin: 0, auto;
+    padding: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+
+    color: #4a0707;
+    background-color: #bfbe9f;
 }
 
-img {
-	display: inline-block;
-	width: 90%;
-	border: medium solid #ffffff;
-	border-spacing: 5px;
-	margin-bottom: 10px;
+img
+{
+    display: inline-block;
+
+    width: 90%;
+    margin-bottom: 10px;
+
+    border-spacing: 5px;
+
+    border: medium solid #fff;
+    border-radius: 5px;
+}
+
+table
+{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+    width: auto;
+    margin: auto;
+}
+
+th
+{
+    font-weight: bold;
+
+    padding: 15px;
+    /*#858d66;*/
+
+    color: #fff;
+    border: 2px solid #fade11;
+    border-bottom: 5px solid #fade11;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a4b357+0,75890c+100;Olive+3D+%233 */
+    background: rgb(164,179,87); /* Old browsers */
+    background:    -moz-radial-gradient(center, ellipse cover,  rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(164,179,87,1) 0%,rgba(117,137,12,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background:         radial-gradient(ellipse at center,  rgba(164,179,87,1) 0%,rgba(117,137,12,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4b357', endColorstr='#75890c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+th:first-child
+{
+    text-align: left;
+}
+
+td
+{
+    padding: 10px;
+    /*font-weight: bold;*/
+
+    opacity: .8;
+    color: #000;
+    border-radius: 2px;
+    background: #c5c9a8;
+    text-shadow: 1px 1px #fff;
+}
+
+td:nth-child(n+2)
+{
+    text-align: center;
+}
+
+td:hover
+{
+    opacity: .6;
+    /*font-weight: bold;*/
 }
